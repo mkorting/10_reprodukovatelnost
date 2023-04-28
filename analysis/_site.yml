@@ -1,7 +1,7 @@
-name: "10_reprodukovatelnost"
+name: 10_reprodukovatelnost
 output_dir: ../docs
 navbar:
-  title: "10_reprodukovatelnost"
+  title: 10_reprodukovatelnost
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/mkorting/10_reprodukovatelnost
 output:
   workflowr::wflow_html:
     toc: yes
